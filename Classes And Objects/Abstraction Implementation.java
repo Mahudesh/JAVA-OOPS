@@ -10,6 +10,11 @@
     }
     class Dog extends Animal
     {
+        // Dog()
+        // {
+        //     //If I Create Default Constructor Here Then It Require Default Constructor In Parent Class Also
+        //     //Since It Automatically Calls Parent Class Default Constructor
+        // }
         Dog(String name)
         {
             super(name);
